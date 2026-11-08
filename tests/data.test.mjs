@@ -13,7 +13,7 @@ test('supplied wedding configuration is valid and all media is data-driven', () 
 
 test('configured invitation uses Rahul and Sakshi without reference family details', () => {
   assert.equal(data.couple.groom.name, 'Rahul Singh Chundawat')
-  assert.equal(data.couple.bride.name, 'Sakshi Sisodiya')
+  assert.equal(data.couple.bride.name, 'Nisha Kunwar')
   assert.equal(data.wedding.hashtag, '#RahulWedsSakshi')
   assert.doesNotMatch(JSON.stringify(data), /\b(Vinay|Archana|Yadav|Rewari|Lawan)\b/)
 })

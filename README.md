@@ -15,7 +15,7 @@ npm run dev
 
 Edit [src/data/wedding.json](src/data/wedding.json). Names, family messages, dates, events, venues, hashtag, sharing metadata, and media paths all come from this file.
 
-- The invitation is personalized for **Rahul Singh Chundawat and Sakshi Sisodiya**.
+- The invitation is personalized for **Rahul Singh Chundawat and Nisha Kunwar**.
 - The wedding date/time (**20 December 2026, 7:00 PM IST**) and Haldi date/time (**18 December 2026, 11:00 AM**) are **sample values from the supplied brief, not confirmed bookings**.
 - Venue details and the Lagan date are marked **to be confirmed**. Parent names were not supplied, so the invitation uses family blessings instead.
 - Set `wedding.dateTime` with an explicit timezone. Update `wedding.displayDate` and the event dates/times alongside it.
