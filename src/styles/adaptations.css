@@ -141,6 +141,10 @@ canvas:focus-visible {
   text-align: center;
 }
 
+iframe#nl-badge-frame {
+  display: none !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
