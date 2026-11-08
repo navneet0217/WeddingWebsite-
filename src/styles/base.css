@@ -1,0 +1,64 @@
+:root {
+  --ivory: #FDF8EC;
+  --cream: #F8EEDC;
+  --cream-dark: #F3E5CD;
+  --gold: #B8923A;
+  --gold-bright: #D9B65A;
+  --gold-dark: #8C6A1F;
+  --gold-light: #F5E2A8;
+  --gold-gradient: linear-gradient(135deg, #8C6A1F 0%, #E6C872 50%, #B8923A 100%);
+  --gold-gradient-text: linear-gradient(135deg, #7A5714 0%, #D9B65A 45%, #F4DC96 55%, #8C6A1F 100%);
+  --gold-glow: 0 4px 18px rgba(184, 146, 58, 0.35);
+  --rose-pink: #D6457F;
+  --coral: #F08A74;
+  --peach: #F9D9C4;
+  --marigold: #F2A93B;
+  --sage-leaf: #6E9E73;
+  --powder-blue: #BFE0EA;
+  --text-primary: #4A2E35;
+  --text-secondary: #7A5A60;
+  --text-muted: #9C7E84;
+  --border-gold-subtle: rgba(184, 146, 58, 0.3);
+  --font-script: 'Italianno', cursive;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-caps: 'Cinzel', serif;
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-hindi: 'Tiro Devanagari Hindi', 'Noto Serif Devanagari', serif;
+  --ar: 0.55815;
+  --safe-top: 24%;
+  --safe-bottom: 81%;
+  --safe-left: 17%;
+  --safe-right: 83%;
+  --ease-smooth: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  background-color: var(--ivory);
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background-color: var(--ivory);
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.scroll-locked {
+  overflow: hidden !important;
+  touch-action: none;
+}

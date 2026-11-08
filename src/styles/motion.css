@@ -1,0 +1,22 @@
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .entrance-overlay.dissolving {
+    opacity: 0 !important;
+    filter: none !important;
+    transform: none !important;
+  }
+  .hero-line {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+  #heroStage .stage-bg {
+    transform: none !important;
+    filter: none !important;
+  }
+}

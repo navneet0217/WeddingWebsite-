@@ -1,0 +1,149 @@
+button:focus-visible,
+a:focus-visible,
+canvas:focus-visible {
+  outline: 2px solid var(--gold-dark);
+  outline-offset: 5px;
+}
+
+.sr-only {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.keyboard-only:not(:focus-visible) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.entrance-skip:focus-visible {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  z-index: 25;
+  padding: 8px 16px;
+  border: 1px solid var(--gold-bright);
+  border-radius: 20px;
+  background: var(--ivory);
+  color: var(--gold-dark);
+  font-family: var(--font-caps);
+}
+
+.names-wrapper,
+.hero-names,
+.groom-name,
+.bride-name,
+.message-person-name,
+.hashtag-pill {
+  max-width: 100%;
+}
+
+.groom-name,
+.bride-name,
+.message-person-name,
+.footer-names,
+.hashtag-text,
+.meta-row span {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+#hero-title:focus {
+  outline: none;
+}
+
+.scratch-canvas.is-revealed {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scratch-reveal-card:focus {
+  outline: none;
+}
+
+.festive-confetti-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  pointer-events: none;
+  z-index: 999999;
+}
+
+.event-address {
+  font-family: var(--font-sans);
+  font-size: clamp(10px, 2.8cqw, 13px);
+  line-height: 1.5;
+  color: var(--text-secondary);
+  overflow-wrap: anywhere;
+}
+
+.event-map {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  border: 1px solid var(--gold-bright);
+  border-radius: 24px;
+  background: var(--ivory);
+  color: var(--gold-dark);
+  font-family: var(--font-caps);
+  font-size: clamp(9px, 2.4cqw, 11px);
+  text-decoration: none;
+}
+
+.event-map:hover {
+  background: var(--gold-gradient);
+  color: white;
+}
+
+.asset-error {
+  position: relative;
+  z-index: 30;
+  display: block;
+  padding: 12px;
+  background: var(--ivory);
+  color: #8c2037;
+  font: 12px/1.5 var(--font-sans);
+  overflow-wrap: anywhere;
+}
+
+.configuration-error {
+  max-width: 800px;
+  margin: 10vh auto;
+  padding: 24px;
+  font-family: var(--font-sans);
+}
+
+.configuration-error p,
+.configuration-error pre {
+  margin-top: 20px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.toast-notification {
+  max-width: calc(100vw - 32px);
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "site": {
+    "title": "{couple} — Wedding Invitation",
+    "description": "Join us to celebrate the wedding of {couple} on {date}. Location: {city}.",
+    "favicon": "/assets/favicon.ico"
+  },
+  "couple": {
+    "groom": {
+      "name": "Rahul Singh Chundawat",
+      "fullName": "Rahul Singh Chundawat",
+      "parents": "With the blessings of the Chundawat family"
+    },
+    "bride": {
+      "name": "Sakshi Sisodiya",
+      "fullName": "Sakshi Sisodiya",
+      "parents": "With the blessings of the Sisodiya family"
+    }
+  },
+  "wedding": {
+    "dateTime": "2026-12-20T19:00:00+05:30",
+    "displayDate": "Sunday, 20 December 2026",
+    "city": "Venue to be confirmed",
+    "hashtag": "#RahulWedsSakshi",
+    "websiteUrl": ""
+  },
+  "opening": {
+    "enabled": true,
+    "video": "/assets/video/entrance.mp4",
+    "label": "Tap to Open Invitation",
+    "accessibleLabel": "Tap to Open Wedding Invitation",
+    "dialogLabel": "Wedding Invitation Envelope",
+    "skipLabel": "Skip opening video",
+    "fallbackLabel": "Open Invitation"
+  },
+  "hero": {
+    "background": { "src": "/assets/backgrounds/hero.webp", "alt": "Wedding Arch" },
+    "blessing": "॥ श्री गणेशाय नमः ॥",
+    "invitation": "We Invite You To Celebrate The Wedding Of",
+    "message": "Together with their families",
+    "scrollLabel": "Scroll To Celebrate",
+    "scrollAccessibleLabel": "Scroll down to invitation message"
+  },
+  "message": {
+    "background": { "src": "/assets/backgrounds/message.webp", "alt": "Wedding Invitation" },
+    "illustration": { "src": "/assets/decorations/ganesh.webp", "alt": "Lord Ganesha" },
+    "blessing": [
+      "वकुण्ड महाकाय सूर्यकोटि समप्रभा।",
+      "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥"
+    ],
+    "invitation": "Request the honour of your presence on the auspicious occasion of the Wedding of",
+    "quote": "“With joyful hearts and the blessings of our elders, we invite you to celebrate the union of two families.”"
+  },
+  "dateReveal": {
+    "background": { "src": "/assets/backgrounds/countdown.webp", "alt": "Save The Date" },
+    "eyebrow": "Save The Date",
+    "title": "An Auspicious Date",
+    "description": "Scratch the gold foil to reveal the wedding date!",
+    "foilLabel": "✨ SCRATCH WITH LOVE ✨",
+    "foilSubtitle": "To Reveal Auspicious Date",
+    "accessibleLabel": "Scratch to reveal the wedding date, or press Enter",
+    "countdownLabel": "Counting Down To The Big Day",
+    "units": { "days": "Days", "hours": "Hours", "minutes": "Mins", "seconds": "Secs" },
+    "expiredMessage": "🎉 The Auspicious Day Is Here! 🎉"
+  },
+  "events": {
+    "title": "Wedding Itinerary",
+    "description": "Join us in celebrating the rituals & festive joy",
+    "mapLabel": "View Location",
+    "divider": { "src": "/assets/decorations/event-divider.webp", "alt": "" },
+    "merger": { "src": "/assets/decorations/divider.webp", "alt": "" },
+    "items": [
+      {
+        "id": "haldi",
+        "name": "Haldi",
+        "dayLabel": "Day 1 • Haldi",
+        "displayDate": "18 December 2026",
+        "time": "11:00 AM",
+        "venue": "Venue to be confirmed",
+        "address": "",
+        "mapUrl": "",
+        "image": { "src": "/assets/events/haldi.webp", "alt": "Haldi & Mehndi" },
+        "featured": false,
+        "highlightLabel": ""
+      },
+      {
+        "id": "lagan",
+        "name": "Lagan",
+        "dayLabel": "Day 2 • Lagan",
+        "displayDate": "Date to be confirmed",
+        "time": "",
+        "venue": "Venue to be confirmed",
+        "address": "",
+        "mapUrl": "",
+        "image": { "src": "/assets/events/lagan.webp", "alt": "Sangeet Sandhya" },
+        "featured": false,
+        "highlightLabel": ""
+      },
+      {
+        "id": "wedding",
+        "name": "Vivah Sanskar",
+        "dayLabel": "Day 3 • Vivah",
+        "displayDate": "20 December 2026",
+        "time": "7:00 PM",
+        "venue": "Venue to be confirmed",
+        "address": "",
+        "mapUrl": "",
+        "image": { "src": "/assets/events/wedding.webp", "alt": "Vivah Sanskar" },
+        "featured": true,
+        "highlightLabel": "✦ The Main Wedding Ceremony ✦"
+      }
+    ]
+  },
+  "footer": {
+    "background": { "src": "/assets/backgrounds/footer.webp", "alt": "Wedding Blessings" },
+    "blessing": "॥ ॐ पूर्णमदः पूर्णमिदम् पूर्णात् पूर्णमुदच्यते ॥",
+    "title": "Thank You",
+    "message": "With warm love, prayers, and heartfelt regards from the Chundawat and Sisodiya families.",
+    "credit": "Handcrafted with love for our special day • 2026",
+    "shareLabel": "Share Invitation",
+    "backToTopLabel": "Back to Top",
+    "copyHashtagLabel": "Copy wedding hashtag {hashtag}",
+    "hashtagCopied": "Hashtag {hashtag} copied!",
+    "linkCopied": "Invitation link copied to clipboard!"
+  },
+  "music": {
+    "enabled": true,
+    "autoplay": true,
+    "loop": true,
+    "volume": 1,
+    "source": "/assets/music/wedding-song.mp3",
+    "playLabel": "Play background music",
+    "pauseLabel": "Pause background music",
+    "playingMessage": "Music Playing ♫",
+    "pausedMessage": "Music Paused",
+    "blockedMessage": "Tap the music button to start the background music.",
+    "errorMessage": "The background music could not be loaded. Please try the music button again."
+  }
+}

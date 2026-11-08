@@ -1,0 +1,27 @@
+{
+  "couple": {
+    "groom": {
+      "name": "Vinay",
+      "fullName": "Vinay Yadav",
+      "parents": "Son of Mr. Virendra & Mrs. Ramkala Yadav"
+    },
+    "bride": {
+      "name": "Archana",
+      "fullName": "Archana Yadav",
+      "parents": "Daughter of Mr. Krishna & Mrs. Neetu Yadav"
+    }
+  },
+  "wedding": {
+    "dateTime": "2026-11-26T00:00:00+05:30",
+    "displayDate": "Thursday, 26 November 2026",
+    "city": "Rewari, Haryana",
+    "hashtag": "#VinayWedsArchana",
+    "websiteUrl": ""
+  },
+  "events": [
+    { "displayDate": "23 November 2026", "time": "", "venue": "At Home" },
+    { "displayDate": "24 November 2026", "time": "", "venue": "Radha-Krishna Garden, Lawan(Mahendragarh), Haryana" },
+    { "displayDate": "26 November 2026", "time": "", "venue": "Rewari, Haryana" }
+  ],
+  "footerMessage": "With warm love, prayers, and heartfelt regards from both the Yadav families."
+}

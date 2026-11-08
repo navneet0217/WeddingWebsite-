@@ -1,0 +1,131 @@
+.message-safe {
+  top: 12%;
+  bottom: 9%;
+  left: 8%;
+  right: 8%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.message-ganesh-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2cqh;
+}
+
+.message-ganesh-img {
+  width: auto;
+  height: clamp(58px, 14.4cqw, 84px);
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 5px 12px rgba(214, 69, 127, 0.22));
+  animation: gentleGaneshFloat 4s ease-in-out infinite alternate;
+}
+
+@keyframes gentleGaneshFloat {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-3.5px); }
+}
+
+.message-shloka-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3cqh;
+  margin-bottom: 1.8cqh;
+}
+
+.message-shloka-line {
+  font-family: var(--font-hindi);
+  font-size: clamp(15.5px, 4.3cqw, 21px);
+  color: var(--gold-dark);
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  white-space: normal;
+}
+
+.message-lead {
+  font-family: var(--font-serif);
+  font-size: clamp(15.5px, 4.2cqw, 20.5px);
+  font-weight: 500;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+  max-width: 96%;
+  margin: 0 auto 1.9cqh;
+  text-align: center;
+}
+
+.couple-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3cqh;
+  text-align: center;
+  width: 100%;
+}
+
+.message-person-name {
+  font-family: var(--font-script);
+  font-size: clamp(41px, 11cqw, 55px);
+  font-weight: 400;
+  color: var(--gold-dark);
+  line-height: 1.12;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+.message-person-lineage {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(16.5px, 4.3cqw, 21px);
+  color: var(--text-secondary);
+  line-height: 1.35;
+  margin: 0;
+}
+
+.message-connector {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(27px, 7.2cqw, 36px);
+  color: var(--rose-pink);
+  margin: 0.6cqh 0;
+  line-height: 1;
+}
+
+.gold-filigree-divider.message-divider {
+  width: 60%;
+  margin: 1.8cqh auto 1.7cqh;
+}
+
+.message-divider .divider-gem {
+  font-size: clamp(12px, 3.4cqw, 17px);
+}
+
+.message-divider .divider-line {
+  height: 1.2px;
+}
+
+.message-closing-quote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(17.4px, 4.7cqw, 21.6px);
+  line-height: 1.45;
+  color: var(--text-primary);
+  max-width: 96%;
+  margin: 0 auto;
+  text-align: center;
+}
